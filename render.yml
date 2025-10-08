@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: pocketbase
-    env: docker
-    startCommand: ./pocketbase serve --http 0.0.0.0:$PORT
-    autoDeploy: true
-    plan: free
